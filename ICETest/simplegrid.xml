@@ -1,0 +1,51 @@
+<!--
+ **********************************************************************
+
+ Copyright (c) 2003-2016 ZeroC, Inc. All rights reserved.
+
+ **********************************************************************
+-->
+
+<icegrid>
+
+  <application name="Simple">
+	<properties id="MultiThreaded">
+		<property name = "Ice.PrintStackTraces" value="1"/>
+		<property name = "Ice.Trace.Retry" value="2"/>
+		<property name = "Ice.Trace.Network" value="1"/>
+		<property name = "Ice.Trace.ThreadPool" value="1"/>
+		<property name = "Ice.Trace.Locator" value="1"/>
+	</properties>
+	
+	<server-template id="HelloServerTemp">
+		<parameter name = "id"/>
+		<icebox id="HelloServer${id}" exe="java" activation="on-demand">
+			<properties>
+				<properties refid="MultiThreaded"/>
+			</properties>
+			<option>IceBox.Server</option>
+			<env>CLASSPATH=D:\software\Ice3.6.2\lib\*;F:\ice-study\ICETest\lib\*;F:\ice-study\ICETest\bin\</env>
+			<service name="OnlineBook" entry="com.cai.service.OnlineBookI2">
+			<adapter name="OnlineBook" id="OnlineBook${id}" endpoints="tcp"	replica-group="OnlineBookRep"></adapter>
+			</service>
+			<service name="SMSService" entry="com.cai.service.SMSServiceI2">
+			<adapter name="SMSService" id="SMSService${id}" endpoints="tcp"	replica-group="SMSServiceRep"></adapter>
+			</service>
+		</icebox>
+	</server-template>
+	<replica-group id="OnlineBookRep">
+		<load-balancing type="round-robin" n-replicas="0" />
+		<object identity="OnlineBook" type="::book::OnlineBook"/>
+	</replica-group>
+	<replica-group id="SMSServiceRep">
+		<load-balancing type="round-robin" n-replicas="0" />
+		<object identity="SMSService" type="::message::SMSService"/>
+	</replica-group>	
+    <node name="node1">
+	  <server-instance template="HelloServerTemp" id="1"/>
+	  <server-instance template="HelloServerTemp" id="2"/>
+	</node>
+     
+  </application>
+
+</icegrid>

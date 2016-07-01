@@ -1,0 +1,251 @@
+-- 16-7-1 16:42:19:193 HelloServer1: ThreadPool: creating Ice.ThreadPool.Client: Size = 1, SizeMax = 1, SizeWarn = 0
+!! 16-7-1 16:42:19:214 HelloServer1: error: main: ServiceManager: class com.cai.service.OnlineBookI2 not found
+   IceBox.FailureException
+       reason = "ServiceManager: class com.cai.service.OnlineBookI2 not found"
+   	at IceBox.ServiceManagerI.start(ServiceManagerI.java:575)
+   	at IceBox.ServiceManagerI.run(ServiceManagerI.java:405)
+   	at IceBox.Server.run(Server.java:77)
+   	at Ice.Application.doMain(Application.java:214)
+   	at Ice.Application.main(Application.java:194)
+   	at IceBox.Server.main(Server.java:32)
+   
+-- 16-7-1 16:48:17:218 HelloServer1: ThreadPool: creating Ice.ThreadPool.Client: Size = 1, SizeMax = 1, SizeWarn = 0
+log4j:WARN No appenders could be found for logger (com.cai.service.OnlineBookI2).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+-- 16-7-1 16:48:17:376 SMSService:  control :  stoped 
+-- 16-7-1 16:48:17:376 HelloServer1: Network: listening for tcp connections
+   local address = 127.0.0.1:57189
+-- 16-7-1 16:48:17:377 HelloServer1: ThreadPool: creating Ice.ThreadPool.Server: Size = 1, SizeMax = 1, SizeWarn = 0
+-- 16-7-1 16:48:17:377 HelloServer1: Network: published endpoints for object adapter `Ice.Admin':
+   tcp -h localhost -p 57189 -t 60000
+-- 16-7-1 16:48:17:425 HelloServer1: Network: accepting tcp connections at 127.0.0.1:57189
+-- 16-7-1 16:48:17:428 HelloServer1: Network: established tcp connection
+   local address = 127.0.0.1:57192
+   remote address = 127.0.0.1:4061
+-- 16-7-1 16:48:17:429 HelloServer1: Network: established tcp connection
+   local address = 10.10.12.90:57193
+   remote address = 10.10.12.90:51399
+-- 16-7-1 16:48:17:430 HelloServer1: Locator: registered server `HelloServer1' with the locator registry
+-- 16-7-1 16:49:00:296 HelloServer1: Network: closed tcp connection
+   local address = 127.0.0.1:57192
+   remote address = 127.0.0.1:4061
+-- 16-7-1 16:49:02:333 HelloServer1: Network: closed tcp connection
+   local address = 10.10.12.90:57193
+   remote address = 10.10.12.90:51399
+-- 16-7-1 17:01:33:060 HelloServer2: ThreadPool: creating Ice.ThreadPool.Client: Size = 1, SizeMax = 1, SizeWarn = 0
+log4j:WARN No appenders could be found for logger (com.cai.service.OnlineBookI2).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+-- 16-7-1 17:01:33:178 SMSService:  control :  stoped 
+-- 16-7-1 17:01:33:178 HelloServer2: Network: listening for tcp connections
+   local address = 127.0.0.1:57870
+-- 16-7-1 17:01:33:179 HelloServer2: ThreadPool: creating Ice.ThreadPool.Server: Size = 1, SizeMax = 1, SizeWarn = 0
+-- 16-7-1 17:01:33:179 HelloServer2: Network: published endpoints for object adapter `Ice.Admin':
+   tcp -h localhost -p 57870 -t 60000
+-- 16-7-1 17:01:33:213 HelloServer2: Network: accepting tcp connections at 127.0.0.1:57870
+-- 16-7-1 17:01:33:216 HelloServer2: Network: established tcp connection
+   local address = 127.0.0.1:57873
+   remote address = 127.0.0.1:4061
+-- 16-7-1 17:01:33:217 HelloServer2: Network: established tcp connection
+   local address = 10.10.12.90:57874
+   remote address = 10.10.12.90:51399
+-- 16-7-1 17:01:33:217 HelloServer2: Locator: registered server `HelloServer2' with the locator registry
+-- 16-7-1 17:02:15:306 HelloServer2: Network: closed tcp connection
+   local address = 127.0.0.1:57873
+   remote address = 127.0.0.1:4061
+-- 16-7-1 17:02:18:151 HelloServer2: Network: closed tcp connection
+   local address = 10.10.12.90:57874
+   remote address = 10.10.12.90:51399
+-- 16-7-1 17:02:29:660 HelloServer1: Network: accepted tcp connection
+   local address = 127.0.0.1:57189
+   remote address = 127.0.0.1:57924
+-- 16-7-1 17:02:29:661 HelloServer1: Network: stopping to accept tcp connections at 127.0.0.1:57189
+-- 16-7-1 17:02:29:662 HelloServer1: Network: closed tcp connection
+   local address = 127.0.0.1:57189
+   remote address = 127.0.0.1:57924
+-- 16-7-1 17:02:29:662 SMSService:  control :  stoped 
+-- 16-7-1 17:02:36:787 HelloServer1: ThreadPool: creating Ice.ThreadPool.Client: Size = 1, SizeMax = 1, SizeWarn = 0
+log4j:WARN No appenders could be found for logger (com.cai.service.OnlineBookI2).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+-- 16-7-1 17:02:36:903 SMSService:  control :  stoped 
+-- 16-7-1 17:02:36:904 HelloServer1: Network: listening for tcp connections
+   local address = 127.0.0.1:57956
+-- 16-7-1 17:02:36:904 HelloServer1: ThreadPool: creating Ice.ThreadPool.Server: Size = 1, SizeMax = 1, SizeWarn = 0
+-- 16-7-1 17:02:36:904 HelloServer1: Network: published endpoints for object adapter `Ice.Admin':
+   tcp -h localhost -p 57956 -t 60000
+-- 16-7-1 17:02:36:940 HelloServer1: Network: accepting tcp connections at 127.0.0.1:57956
+-- 16-7-1 17:02:36:943 HelloServer1: Network: established tcp connection
+   local address = 127.0.0.1:57959
+   remote address = 127.0.0.1:4061
+-- 16-7-1 17:02:36:944 HelloServer1: Network: established tcp connection
+   local address = 10.10.12.90:57960
+   remote address = 10.10.12.90:51399
+-- 16-7-1 17:02:36:944 HelloServer1: Locator: registered server `HelloServer1' with the locator registry
+-- 16-7-1 17:02:55:956 HelloServer2: Network: accepted tcp connection
+   local address = 127.0.0.1:57870
+   remote address = 127.0.0.1:57983
+-- 16-7-1 17:02:55:958 HelloServer2: Network: stopping to accept tcp connections at 127.0.0.1:57870
+-- 16-7-1 17:02:55:960 HelloServer2: Network: closed tcp connection
+   local address = 127.0.0.1:57870
+   remote address = 127.0.0.1:57983
+-- 16-7-1 17:02:55:960 SMSService:  control :  stoped 
+-- 16-7-1 17:03:05:085 HelloServer2: ThreadPool: creating Ice.ThreadPool.Client: Size = 1, SizeMax = 1, SizeWarn = 0
+log4j:WARN No appenders could be found for logger (com.cai.service.OnlineBookI2).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+-- 16-7-1 17:03:05:197 SMSService:  control :  stoped 
+-- 16-7-1 17:03:05:197 HelloServer2: Network: listening for tcp connections
+   local address = 127.0.0.1:58016
+-- 16-7-1 17:03:05:198 HelloServer2: ThreadPool: creating Ice.ThreadPool.Server: Size = 1, SizeMax = 1, SizeWarn = 0
+-- 16-7-1 17:03:05:198 HelloServer2: Network: published endpoints for object adapter `Ice.Admin':
+   tcp -h localhost -p 58016 -t 60000
+-- 16-7-1 17:03:05:233 HelloServer2: Network: accepting tcp connections at 127.0.0.1:58016
+-- 16-7-1 17:03:05:235 HelloServer2: Network: established tcp connection
+   local address = 127.0.0.1:58019
+   remote address = 127.0.0.1:4061
+-- 16-7-1 17:03:05:237 HelloServer2: Network: established tcp connection
+   local address = 192.168.153.1:58020
+   remote address = 192.168.153.1:51399
+-- 16-7-1 17:03:05:237 HelloServer2: Locator: registered server `HelloServer2' with the locator registry
+-- 16-7-1 17:03:15:306 HelloServer1: Network: closed tcp connection
+   local address = 127.0.0.1:57959
+   remote address = 127.0.0.1:4061
+-- 16-7-1 17:03:21:876 HelloServer1: Network: closed tcp connection
+   local address = 10.10.12.90:57960
+   remote address = 10.10.12.90:51399
+-- 16-7-1 17:03:36:877 HelloServer2: Network: closed tcp connection
+   local address = 192.168.153.1:58020
+   remote address = 192.168.153.1:51399
+-- 16-7-1 17:03:45:306 HelloServer2: Network: closed tcp connection
+   local address = 127.0.0.1:58019
+   remote address = 127.0.0.1:4061
+-- 16-7-1 17:05:17:307 HelloServer2: Network: accepted tcp connection
+   local address = 127.0.0.1:58016
+   remote address = 127.0.0.1:58121
+-- 16-7-1 17:05:17:310 HelloServer2: Network: stopping to accept tcp connections at 127.0.0.1:58016
+-- 16-7-1 17:05:17:311 HelloServer2: Network: closed tcp connection
+   local address = 127.0.0.1:58016
+   remote address = 127.0.0.1:58121
+-- 16-7-1 17:05:17:311 SMSService:  control :  stoped 
+-- 16-7-1 17:05:43:324 HelloServer1: Network: accepted tcp connection
+   local address = 127.0.0.1:57956
+   remote address = 127.0.0.1:58143
+-- 16-7-1 17:05:43:325 HelloServer1: Network: stopping to accept tcp connections at 127.0.0.1:57956
+-- 16-7-1 17:05:43:327 HelloServer1: Network: closed tcp connection
+   local address = 127.0.0.1:57956
+   remote address = 127.0.0.1:58143
+-- 16-7-1 17:05:43:327 SMSService:  control :  stoped 
+-- 16-7-1 17:05:58:205 HelloServer1: ThreadPool: creating Ice.ThreadPool.Client: Size = 1, SizeMax = 1, SizeWarn = 0
+-- 16-7-1 17:05:58:216 HelloServer2: ThreadPool: creating Ice.ThreadPool.Client: Size = 1, SizeMax = 1, SizeWarn = 0
+log4j:WARN No appenders could be found for logger (com.cai.service.OnlineBookI2).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+log4j:WARN No appenders could be found for logger (com.cai.service.OnlineBookI2).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+-- 16-7-1 17:05:58:352 SMSService:  control :  stoped 
+-- 16-7-1 17:05:58:353 HelloServer1: Network: listening for tcp connections
+   local address = 127.0.0.1:58204
+-- 16-7-1 17:05:58:354 HelloServer1: ThreadPool: creating Ice.ThreadPool.Server: Size = 1, SizeMax = 1, SizeWarn = 0
+-- 16-7-1 17:05:58:354 HelloServer1: Network: published endpoints for object adapter `Ice.Admin':
+   tcp -h localhost -p 58204 -t 60000
+-- 16-7-1 17:05:58:354 SMSService:  control :  stoped 
+-- 16-7-1 17:05:58:355 HelloServer2: Network: listening for tcp connections
+   local address = 127.0.0.1:58208
+-- 16-7-1 17:05:58:355 HelloServer2: ThreadPool: creating Ice.ThreadPool.Server: Size = 1, SizeMax = 1, SizeWarn = 0
+-- 16-7-1 17:05:58:356 HelloServer2: Network: published endpoints for object adapter `Ice.Admin':
+   tcp -h localhost -p 58208 -t 60000
+-- 16-7-1 17:05:58:390 HelloServer1: Network: accepting tcp connections at 127.0.0.1:58204
+-- 16-7-1 17:05:58:392 HelloServer2: Network: accepting tcp connections at 127.0.0.1:58208
+-- 16-7-1 17:05:58:394 HelloServer1: Network: established tcp connection
+   local address = 127.0.0.1:58211
+   remote address = 127.0.0.1:4061
+-- 16-7-1 17:05:58:395 HelloServer2: Network: established tcp connection
+   local address = 127.0.0.1:58212
+   remote address = 127.0.0.1:4061
+-- 16-7-1 17:05:58:396 HelloServer1: Network: established tcp connection
+   local address = 192.168.153.1:58213
+   remote address = 192.168.153.1:51399
+-- 16-7-1 17:05:58:397 HelloServer1: Locator: registered server `HelloServer1' with the locator registry
+-- 16-7-1 17:05:58:397 HelloServer2: Network: established tcp connection
+   local address = 192.168.153.1:58214
+   remote address = 192.168.153.1:51399
+-- 16-7-1 17:05:58:397 HelloServer2: Locator: registered server `HelloServer2' with the locator registry
+-- 16-7-1 17:06:30:307 HelloServer1: Network: closed tcp connection
+   local address = 127.0.0.1:58211
+   remote address = 127.0.0.1:4061
+-- 16-7-1 17:06:30:307 HelloServer2: Network: closed tcp connection
+   local address = 127.0.0.1:58212
+   remote address = 127.0.0.1:4061
+-- 16-7-1 17:06:43:328 HelloServer1: Network: closed tcp connection
+   local address = 192.168.153.1:58213
+   remote address = 192.168.153.1:51399
+-- 16-7-1 17:06:43:328 HelloServer2: Network: closed tcp connection
+   local address = 192.168.153.1:58214
+   remote address = 192.168.153.1:51399
+-- 16-7-1 17:08:46:530 HelloServer1: Network: accepted tcp connection
+   local address = 127.0.0.1:58204
+   remote address = 127.0.0.1:58344
+-- 16-7-1 17:08:46:532 HelloServer1: Network: stopping to accept tcp connections at 127.0.0.1:58204
+-- 16-7-1 17:08:46:533 HelloServer1: Network: closed tcp connection
+   local address = 127.0.0.1:58204
+   remote address = 127.0.0.1:58344
+-- 16-7-1 17:08:46:533 SMSService:  control :  stoped 
+-- 16-7-1 17:08:48:778 HelloServer2: Network: accepted tcp connection
+   local address = 127.0.0.1:58208
+   remote address = 127.0.0.1:58348
+-- 16-7-1 17:08:48:778 HelloServer2: Network: stopping to accept tcp connections at 127.0.0.1:58208
+-- 16-7-1 17:08:48:780 HelloServer2: Network: closed tcp connection
+   local address = 127.0.0.1:58208
+   remote address = 127.0.0.1:58348
+-- 16-7-1 17:08:48:780 SMSService:  control :  stoped 
+-- 16-7-1 17:10:18:645 HelloServer2: ThreadPool: creating Ice.ThreadPool.Client: Size = 1, SizeMax = 1, SizeWarn = 0
+log4j:WARN No appenders could be found for logger (com.cai.service.OnlineBookI2).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+-- 16-7-1 17:10:18:769 SMSService:  control :  stoped 
+-- 16-7-1 17:10:18:769 HelloServer2: Network: listening for tcp connections
+   local address = 127.0.0.1:58452
+-- 16-7-1 17:10:18:770 HelloServer2: ThreadPool: creating Ice.ThreadPool.Server: Size = 1, SizeMax = 1, SizeWarn = 0
+-- 16-7-1 17:10:18:770 HelloServer2: Network: published endpoints for object adapter `Ice.Admin':
+   tcp -h localhost -p 58452 -t 60000
+-- 16-7-1 17:10:18:806 HelloServer2: Network: accepting tcp connections at 127.0.0.1:58452
+-- 16-7-1 17:10:18:808 HelloServer2: Network: established tcp connection
+   local address = 127.0.0.1:58455
+   remote address = 127.0.0.1:4061
+-- 16-7-1 17:10:18:809 HelloServer2: Network: established tcp connection
+   local address = 192.168.64.1:58456
+   remote address = 192.168.64.1:51399
+-- 16-7-1 17:10:18:810 HelloServer2: Locator: registered server `HelloServer2' with the locator registry
+-- 16-7-1 17:10:47:668 HelloServer1: ThreadPool: creating Ice.ThreadPool.Client: Size = 1, SizeMax = 1, SizeWarn = 0
+log4j:WARN No appenders could be found for logger (com.cai.service.OnlineBookI2).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+-- 16-7-1 17:10:47:781 SMSService:  control :  stoped 
+-- 16-7-1 17:10:47:782 HelloServer1: Network: listening for tcp connections
+   local address = 127.0.0.1:58516
+-- 16-7-1 17:10:47:782 HelloServer1: ThreadPool: creating Ice.ThreadPool.Server: Size = 1, SizeMax = 1, SizeWarn = 0
+-- 16-7-1 17:10:47:782 HelloServer1: Network: published endpoints for object adapter `Ice.Admin':
+   tcp -h localhost -p 58516 -t 60000
+-- 16-7-1 17:10:47:814 HelloServer1: Network: accepting tcp connections at 127.0.0.1:58516
+-- 16-7-1 17:10:47:816 HelloServer1: Network: established tcp connection
+   local address = 127.0.0.1:58519
+   remote address = 127.0.0.1:4061
+-- 16-7-1 17:10:47:817 HelloServer1: Network: established tcp connection
+   local address = 192.168.153.1:58520
+   remote address = 192.168.153.1:51399
+-- 16-7-1 17:10:47:818 HelloServer1: Locator: registered server `HelloServer1' with the locator registry
+-- 16-7-1 17:11:00:309 HelloServer2: Network: closed tcp connection
+   local address = 127.0.0.1:58455
+   remote address = 127.0.0.1:4061
+-- 16-7-1 17:11:03:741 HelloServer2: Network: closed tcp connection
+   local address = 192.168.64.1:58456
+   remote address = 192.168.64.1:51399
+-- 16-7-1 17:11:18:742 HelloServer1: Network: closed tcp connection
+   local address = 192.168.153.1:58520
+   remote address = 192.168.153.1:51399
+-- 16-7-1 17:11:30:310 HelloServer1: Network: closed tcp connection
+   local address = 127.0.0.1:58519
+   remote address = 127.0.0.1:4061

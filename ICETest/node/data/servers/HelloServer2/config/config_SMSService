@@ -1,0 +1,7 @@
+# Configuration file (07/01/16 16:47:13.790)
+
+# Object adapter SMSService
+SMSService.Endpoints=tcp
+SMSService.AdapterId=SMSService2
+SMSService.ReplicaGroupId=SMSServiceRep
+Ice.Default.Locator=IceGrid/Locator:tcp -h localhost -p 4061

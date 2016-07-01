@@ -1,0 +1,16 @@
+# Configuration file (07/01/16 16:47:13.787)
+
+# Server configuration
+Ice.Admin.ServerId=HelloServer2
+Ice.Admin.Endpoints=tcp -h localhost
+Ice.ProgramName=HelloServer2
+IceBox.Service.OnlineBook=com.cai.service.OnlineBookI2 --Ice.Config='F:\ice-study\ICETest/./node/data/servers/HelloServer2/config/config_OnlineBook'
+IceBox.Service.SMSService=com.cai.service.SMSServiceI2 --Ice.Config='F:\ice-study\ICETest/./node/data/servers/HelloServer2/config/config_SMSService'
+IceBox.LoadOrder=OnlineBook SMSService
+# Server descriptor properties
+Ice.PrintStackTraces=1
+Ice.Trace.Retry=2
+Ice.Trace.Network=1
+Ice.Trace.ThreadPool=1
+Ice.Trace.Locator=1
+Ice.Default.Locator=IceGrid/Locator:tcp -h localhost -p 4061
