@@ -19,7 +19,8 @@ public class SMSService2 extends _SMSServiceDisp implements Service{
 	@Override
 	public void sendSMS(String msg, Current __current) {
 		if(msg.startsWith("book")){
-			ObjectPrx base = _adapter.getCommunicator().stringToProxy("OnlineBook");
+			//ObjectPrx base = _adapter.getCommunicator().stringToProxy("OnlineBook:default -p 10001");
+			ObjectPrx base = _adapter.getCommunicator().stringToProxy("OnlineBook@OnlineBookAdapter");
 			OnlineBookPrx prxy = OnlineBookPrxHelper.checkedCast(base);
 			Message msg2 = new Message();
 			msg2.name = "cai";
@@ -42,7 +43,7 @@ public class SMSService2 extends _SMSServiceDisp implements Service{
 		Ice.Object object = this;
 		_adapter.add(object, communicator.stringToIdentity(name));
 		_adapter.activate();
-		log.trace(" control ", " stoped ");
+		log.trace(" control ", " started ");
 	}
 
 	@Override
