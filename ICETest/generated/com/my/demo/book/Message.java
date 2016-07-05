@@ -46,11 +46,7 @@ public class Message implements java.lang.Cloneable, java.io.Serializable
         this.price = price;
         this.content = content;
     }
-    @Override
-    public String toString() {
-    	
-    	return "name: "+this.name+"\n"+"type: "+this.type+"\n"+"valid: "+this.valid+"\n"+"price: "+this.price+"\n"+"content: "+this.content+"\n";
-    }
+
     public boolean
     equals(java.lang.Object rhs)
     {
