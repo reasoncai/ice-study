@@ -1,0 +1,2 @@
+启动注册表进程：
+icegridregistry --Ice.Config=registry.cfg
